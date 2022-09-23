@@ -1,0 +1,71 @@
+.preview {
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+  border: 1px solid #c3c3c3;
+  width: 90%;
+  display: flex;
+  padding: 6px;
+  text-align: left;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.preview img {
+  max-width: 175px;
+  max-height: 175px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.defaultImg {
+  max-width: 175px;
+  max-height: 175px;
+  background: #d4d4d4;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  color: #4e4e4e;
+  font-weight: bold;
+  align-items: center;
+}
+
+.previewRight {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.previewRight h3 {
+  font-size: larger;
+  margin: 0;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.previewRight p {
+  margin: 0;
+  line-height: 21px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.previewRight i {
+  font-size: larger;
+  font-weight: 700;
+  color: #2936cb;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.previewNothing {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.previewLoading {
+  font-size: medium;
+  font-weight: bold;
+  padding: 12px;
+}
+
